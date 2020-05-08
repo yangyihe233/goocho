@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/setting/setting",
+    "pages/pageopen/pageopen",
+    "pages/weixinlink/weixinlink1",
+    "pages/setting/about/about",
+    "pages/setting/download/download",
+    "pages/setting/guide/guide",
+    "components/components",
+    "pages/bizhi/bizhi",
+    "pages/weixinlink/weixinlink5",
+    "pages/weixinlink/weixinlink6",
+    "pages/weixinlink/weixinlink7",
+    "pages/weixinlink/weixinlink8"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "菇祖一掷",
+    "navigationBarTextStyle": "black"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "精选",
+        "iconPath": "res/img/weixin.png",
+        "selectedIconPath": "res/img/weixin1.png"
+      },
+      {
+        "pagePath": "pages/pageopen/pageopen",
+        "text": "日常",
+        "iconPath": "res/img/pageopen.png",
+        "selectedIconPath": "res/img/pageopen1.png"
+      },
+      {
+        "pagePath": "pages/bizhi/bizhi",
+        "text": "壁纸",
+        "iconPath": "res/img/bizhi.png",
+        "selectedIconPath": "res/img/bizhi1.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "res/img/taolun.png",
+        "selectedIconPath": "res/img/taolun1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap90.json"
+}
